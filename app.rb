@@ -9,4 +9,8 @@ class App < Sinatra::Base
   get '/' do 
     erb :index
   end 
+  
+  post '/cart' do 
+    
+  end 
 end
