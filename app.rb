@@ -10,7 +10,7 @@ class App < Sinatra::Base
     erb :index
   end 
   
-  post '/cart' do 
+  post '/checkout' do 
     
   end 
 end
