@@ -1,6 +1,7 @@
 require_relative 'config/environment'
 configure do 
-  enable: sessions
+  enable :sessions
+  
 
 class App < Sinatra::Base
 end
